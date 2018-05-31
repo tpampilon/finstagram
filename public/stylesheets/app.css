@@ -1,10 +1,16 @@
 header {
     background-color: #244751;
     color: #E8FDFF;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
     background-color: whitesmoke;
+    
+}
+
+.comments {
+    font-family: 'Butterfly Kids', cursive;
 }
 
 main {
@@ -18,4 +24,14 @@ main {
 
 .finstagram-post .user-info img {
     border-radius: 50%;
+}
+
+a.photo:hover {
+    padding: 10px;
+    transition: padding 0.5s;
+}
+
+a.photo {
+    transition: padding 0.5s;
+    
 }
